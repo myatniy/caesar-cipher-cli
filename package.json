@@ -1,8 +1,8 @@
 {
-  "name": "cipher",
-  "version": "1.0.0",
+  "name": "caesar-cipher-cli-tool",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "my_caesar_cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^3.0.0",
     "commander": "^5.0.0",
     "crypto-classic-caesar": "^1.0.0"
   },
